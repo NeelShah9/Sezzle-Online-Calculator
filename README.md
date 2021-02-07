@@ -15,6 +15,6 @@ To view the running application go to:
 https://calcdeploy.herokuapp.com/
 
 
-##Author
+## Author
 
-#Neel Shah
+## Neel Shah
