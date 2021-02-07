@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="vendors/jquery.min.js"></script>
+  <script src="scripts/client.js"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+  <h1 class="heading"> Online Calculator</h1>
+    <h1 class="historyy">History:</h1>
+<div class="history">
+    <ul id="history">
+      </ul>
+      </div>
+  <section class="wrapper">
+    <h2 class="output">Output:<span id='ans'></span></h2>
+    <div id='calcLayout'>
+      <p id="expressionString"><span id="current"></span><span id="appending-number"></span></p>
+      <button id='clearButton' class="white">C</button>
+      <button id="negative" class="white">+/-</button>
+      <button id="percentage" class="white" value="%">%</button>
+      <button class="orange operator-btn" value="/">/</button>
+      <button class="white num-btn" value="7">7</button>
+      <button class="white num-btn" value="8">8</button>
+      <button class="white num-btn" value="9">9</button>
+      <button class="orange operator-btn" value="*">*</button>
+      <button class="white num-btn" value="4">4</button>
+      <button class="white num-btn" value="5">5</button>
+      <button class="white num-btn" value="6">6</button>
+      <button class="orange operator-btn" value="-">-</button>
+      <button class="white num-btn" value="1">1</button>
+      <button class="white num-btn" value="2">2</button>
+      <button class="white num-btn" value="3">3</button>
+      <button class="orange operator-btn" value="+">+</button>
+      <button class="zero white num-btn" value="0">0</button>
+      <button class="white num-btn" value=".">.</button>
+      <button id='submit' class="orange">=</button>
+    </div>
+    </ul>
+  </section>
+
+</body>
+
+</html>
